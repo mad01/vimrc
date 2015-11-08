@@ -118,3 +118,6 @@
 [submodule "bundle/vim-ipython"]
 	path = bundle/vim-ipython
 	url = https://github.com/ivanov/vim-ipython.git
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git
