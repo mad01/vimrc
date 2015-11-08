@@ -118,3 +118,6 @@
 [submodule "bundle/vim-ipython"]
 	path = bundle/vim-ipython
 	url = https://github.com/ivanov/vim-ipython.git
+[submodule "autoload/vim-plug"]
+	path = autoload/vim-plug
+	url = https://github.com/junegunn/vim-plug.git
