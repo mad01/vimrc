@@ -27,12 +27,6 @@ MANUALLY INSTALL
 
         ./install-vimrc.sh
 
-3. (Optional, if you want Command-T) Compile the Command-T plugin
-
-        cd .vim/bundle/command-t/ruby/command-t
-        ruby extconf.rb
-        make
-
   
 INSTALL & UPGRADE PLUGIN BUNDLES
 --------------------------------
