@@ -1,6 +1,0 @@
-[submodule "bundle/wombat256.vim"]
-	path = bundle/wombat256.vim
-    url = https://github.com/vim-scripts/wombat256.vim.git
-[submodule "bundle/CuteErrorMarker"]
-    path = bundle/CuteErrorMarker
-    url = https://github.com/Twinside/vim-cuteErrorMarker.git
