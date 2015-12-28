@@ -1,4 +1,3 @@
-set rtp+=~/.vim/bundle/Vundle.vim
 filetype off                  
 
 "
