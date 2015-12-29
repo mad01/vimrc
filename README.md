@@ -27,21 +27,6 @@ MANUALLY INSTALL
 
         ./install-vimrc.sh
 
-  
-INSTALL & UPGRADE PLUGIN BUNDLES
---------------------------------
-
-All plugins (except vim-latex) were checked out as git submodules, 
-which can be upgraded with `git pull`. For example, to upgrade Command-T 
-
-     cd ~/.vim/bundle/command-t
-     git pull
-
-To install a new plugin as a git submoudle, type the following commands.
-
-     cd ~/.vim
-     git submodule add [GIT-REPOSITORY-URL] bundle/[PLUGIN-NAME]
-
 Other good references
 ---------------------
 
