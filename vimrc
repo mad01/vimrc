@@ -10,7 +10,6 @@ call plug#begin('~/.vim/plugged')
 " General
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
-Plug 'vim-scripts/wombat256.vim'
 Plug 'fatih/vim-go'
 Plug 'tpope/vim-surround'
 Plug 'editorconfig/editorconfig-vim'
@@ -24,6 +23,14 @@ Plug 'benekastah/neomake'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+
+" Elixir
+Plug 'elixir-lang/vim-elixir'
+
+
+" Themes
+Plug 'vim-scripts/wombat256.vim'
 
 
 " Javascript

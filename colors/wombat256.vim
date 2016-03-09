@@ -287,6 +287,18 @@ hi! link VisualNOS	Visual
 hi! link NonText	LineNr
 hi! link FoldColumn	Folded
 
+
+" Erlang
+hi! link erlangAtom rubySymbol
+hi! link erlangBIF rubyPredefinedIdentifier
+hi! link erlangFunction rubyPredefinedIdentifier
+hi! link erlangDirective Statement
+hi! link erlangNode Identifier
+
+" Elixir
+hi! link elixirAtom rubySymbol
+
+
 " delete functions {{{
 delf <SID>X
 delf <SID>rgb
