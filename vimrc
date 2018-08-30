@@ -110,6 +110,7 @@ set smartcase                " ignore case if search pattern is all lowercase, c
 set wildchar=<TAB>           " start wild expansion in the command line using <TAB>
 set wildmenu                 " wild char completion menu
 set relativenumber           " set relative numbers
+set mouse=a                  " set mouse scroll
 
 
 " ignore these files while expanding wild chars
