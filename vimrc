@@ -61,6 +61,9 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 
+" Bash
+Plug 'vim-scripts/bash-support.vim'
+
 
 call plug#end()
 
@@ -70,6 +73,9 @@ filetype plugin indent on
 
 " neovim terminal esc
 :tnoremap <leader><Esc> <C-\><C-n>
+
+" dont load ymc
+let g:loaded_youcompleteme = 1
 
 
 " General
