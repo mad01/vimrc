@@ -64,6 +64,14 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Bash
 Plug 'vim-scripts/bash-support.vim'
 
+" Terraform
+Plug 'hashivim/vim-terraform'
+Plug 'juliosueiras/vim-terraform-completion'
+
+" markdown
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+
 
 call plug#end()
 
