@@ -297,9 +297,7 @@ nnoremap <C-H> <C-W><C-H>
 " deoplete.nvim
 let g:deoplete#enable_at_startup = 0
 let g:deoplete#enable_ignore_case = 1
-inoremap <silent><expr> <Tab>
-\ pumvisible() ? "\<C-n>" :
-\ deoplete#mappings#manual_complete()
+
 
 
 " alchemist
@@ -342,4 +340,8 @@ command! -bang -nargs=* Ag
   \                 <bang>0 ? fzf#vim#with_preview('up:60%')
   \                         : fzf#vim#with_preview('right:50%:hidden', '?'),
   \                 <bang>0)
+
+
+
+let NERDTreeShowHidden=1
 
