@@ -33,6 +33,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'vim-scripts/wombat256.vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 
 " Scala
@@ -158,8 +159,12 @@ set clipboard=unnamed
 " Colors and Fonts
 syntax on
 set hlsearch
-set background=dark          " set background dark
-colorscheme wombat256mod
+
+" set background dark
+" colorscheme wombat256mod
+"
+set background=light 
+colorscheme onehalflight
 
 
 " Formatting
