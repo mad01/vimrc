@@ -166,6 +166,16 @@ set hlsearch
 set background=light 
 colorscheme onehalflight
 
+if $TERMTHEME == 'light'
+  set background=light
+  colorscheme onehalflight
+endif
+
+if system('~/.dotfiles/zsh/scripts/daskmode.swift') =~ "Dark"
+  set background=dark
+  colorscheme onehalfdark
+endif
+
 
 " Formatting
 nnoremap <F2> :set invpaste paste?<CR>
